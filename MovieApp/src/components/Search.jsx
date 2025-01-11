@@ -22,12 +22,12 @@ const Search =()=>{
         const responseAvengers = await fetchMoviesByTitle("Avengers");
         const responseBlade = await fetchMoviesByTitle("Blade");
     
-        // Combine the two sets of movies
+      
         const combinedMovies = [...responseBadBoys, ...responseAvengers, ...responseBlade];
     
-        setMovies(combinedMovies); // 
+        setMovies(combinedMovies);
         const response = await fetchMoviesByTitle("Bad boys", "Avengers");
-        // setMovies(response || []);
+      
       } catch (err) {
         setError(err.message);
       } finally {
