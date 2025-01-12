@@ -1,27 +1,3 @@
-// import React from "react";
-
-// const MovieDetails = ({ movie }) => {
-//   if (!movie) return null;
-
-//   return (
-//     <div className="bg-gray-900 text-white p-6 rounded-lg shadow-lg">
-//       <h2 className="text-2xl font-semibold mb-4">{movie.Title}</h2>
-//       <img
-//         src={movie.Poster !== "N/A" ? movie.Poster : "/placeholder.jpg"}
-//         alt={`Poster of ${movie.Title}`}
-//         className="w-full h-64 object-cover rounded-lg mb-4"
-//       />
-//       <p><strong>Year:</strong> {movie.Year}</p>
-//       <p><strong>Genre:</strong> {movie.Genre}</p>
-//       <p><strong>Director:</strong> {movie.Director}</p>
-//       <p><strong>Plot:</strong> {movie.Plot}</p>
-//     </div>
-//   );
-// };
-
-// export default MovieDetails;
-
-
 import React from "react";
 
 const MovieDetails = ({ movie }) => {
