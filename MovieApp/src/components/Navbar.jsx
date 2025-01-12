@@ -10,11 +10,19 @@ const Navbar = () => {
  
         <div className="flex space-x-6">
           <Link
-            to="/search"
+            to="/"
             className="text-lg font-medium hover:text-yellow-300"
           >
             Home
           </Link>
+
+          <Link
+            to="*"
+            className="text-lg font-medium hover:text-yellow-300"
+          >
+            Not Found
+          </Link>
+
     
         </div>
       </div>
