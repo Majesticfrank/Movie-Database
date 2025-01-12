@@ -43,7 +43,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        {/* Route for Search wrapped with MovieProvider */}
+      
         <Route
           path="/Search"
           element={
@@ -53,7 +53,7 @@ function App() {
           }
         />
 
-     
+<Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
