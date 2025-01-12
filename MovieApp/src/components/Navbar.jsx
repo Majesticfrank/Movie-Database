@@ -5,31 +5,17 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-300 text-yellow-500 shadow-md">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-    
-        <Link to="/" className="text-2xl font-bold hover:text-yellow-300">
-         ROYAL TV
-        </Link>
+
 
  
         <div className="flex space-x-6">
           <Link
-            to="/Search"
+            to="/search"
             className="text-lg font-medium hover:text-yellow-300"
           >
             Home
           </Link>
-          <Link
-            to="/About"
-            className="text-lg font-medium hover:text-yellow-300"
-          >
-            About
-          </Link>
-          <Link
-            to="/Contact"
-            className="text-lg font-medium hover:text-yellow-300"
-          >
-            Contact
-          </Link>
+    
         </div>
       </div>
     </nav>
